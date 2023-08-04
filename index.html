@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+  <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+  <hr />
+
+  <h2>Índice</h2>
+
+  <ul>
+    <li><a href="#historia">História dos Computadores</a></li>
+    <li><a href="#clients">O que são <i>Clients</i></a></li>
+    <li><a href="#servers">O que são <i>Servers</i></a></li>
+    <li><a href="#linguagem">Linguagens de Programação</a></li>
+    <li><a href="#tags">Tags HTML</a></li>
+    <li><a href="#referencia">Links de Referência</a></li>
+  </ul>
+
+  <h2 id="historia">História dos Computadores</h2>
+  <small><a href="#inicio">(Início)</a></small>
+  <p>Os computadores de hoje em dia, são bem diferentes das primeiras máquinas criadas pelo homem.Os primeiros computadores criados pelo
+    homem foi o <strong>ENIAC</strong> <u>(Eletronic Numerical Integrator and Computer)</u> e o <strong>Colossus</strong> criados no ano de <strong>1946</strong>
+    como uma máquina de cálculos precisos. Passando por diversas transformações e aperfeiçoamentos ao longo do tempo, até os computadores com interface visual 
+    que temos a disposição nós dias atuais, mais não paramos por ai a proxima geração ja está chegando com as <strong>IA</strong> <u>(Inteligencia Artificial)</u>
+  </p>
+  <p>Temos também o processo de Inclusão Digital, que ajudou muito na evolução da humanidade e também do computador. A internet foi criada em 1969, nos Estados Unidos. 
+    Chamada de <strong>Arpanet</strong>, tinha como função interligar laboratórios de pesquisa, pertencente ao <i>Departamento de Defesa norte-americano</i>.
+    Mais foi em <u>1989</u> que <strong>Tim Berners-Lee</strong> viu uma oportunidade de unir hipertexto com <b>TCP/IP</b> e criar a <strong>World Wide Web (WWW)</strong>
+    Temos grandes nome que estão emvolvidos na história da web.
+    <hr>
+    <strong>Grace Murray Hopper</strong>
+    <ul>
+      <li>Uma das primeiras programadoras do Mark I em 1944</li>
+      <li>Criadora da linguagem de programação de alto nível Flow-Matic (Base do COBOL)</li>
+      <li>Termo “bug” na computação</li>
+    </ul>
+    <hr>
+    <strong>Robert E. Kahn</strong>
+    <ul>
+      <li>Primeira apresentação pública da ARPANet</li>
+      <li>Apresentou o primeiro e-mail</li>
+      <li>Criador do TCP/IP</li>
+    </ul>
+    <hr>
+    <strong>Tim Berners-Lee</strong>
+    <ul>
+      <li>Diretor do World Wide Web Consortion (W3C)</li>
+      <li>Popularizou o HTTP e HTML</li>
+    </ul>
+    <hr>
+    <strong>Bill Gates</strong>
+    <ul>
+      <li>Fundador da Microsoft.</li>
+      <li>Tornou acessível para todos o computador, e com isso o acesso à internet.</li>
+    </ul>
+  </p>
+  <hr>
+
+  <h2 id="clients">O que são <i>Clients</i></h2>
+  <small><a href="#inicio">(Início)</a></small>
+  <p>Clients, na área da computação, refere-se a um dispositivo, programa ou aplicativo que interage com um servidor ou serviço remoto para 
+    acessar recursos, solicitar informações ou realizar tarefas específicas. 
+    Os clientes são parte fundamental de arquiteturas de rede, como a Internet, e desempenham um papel importante em sistemas distribuídos.
+    Exitem diferentes tipos de clients, cada um projetado para atender a necessidades específicas.
+    <strong>Cliente de rede, e-mail, web, software, jogos, FTP, mensagens instantâneas.</strong>
+    Em essência, o cliente é a parte do sistema que solicita e consome serviços ou recursos fornecidos por um servidor ou serviço remoto, 
+    e essa comunicação pode seguir diversos protocolos, como <u>HTTP, FTP, SMTP, IMAP,</u> entre outros.
+  </p>
+  <hr>
+  <h2 id="servers">O que são <i>Servers</i></h2>
+  <small><a href="#inicio">(Início)</a></small>
+  <p>Servidores, na área da computação, são dispositivos ou programas que fornecem recursos, serviços ou armazenamento a outros dispositivos ou programas,
+    conhecidos como clientes. Eles desempenham um papel central em redes de computadores e sistemas distribuídos, permitindo que os clientes acessem informações, 
+    compartilhem recursos e realizem tarefas de forma eficiente e segura.
+    Principais características dos servidores.
+    <ol>
+      <li><b>Disponibilidade</b> Os servidores são projetados para estar sempre disponíveis e responder às solicitações dos clientes. Eles devem estar online e 
+        operacionais para garantir o acesso contínuo aos serviços.</li>
+      <li><b>Confiabilidade</b>: A confiabilidade é fundamental em servidores, pois muitos clientes dependem deles para obter acesso a informações e recursos críticos. 
+        Os servidores são configurados para evitar falhas, e muitos têm medidas de redundância para garantir que continuem operacionais mesmo em caso de problemas.</li>
+      <li><b>Escalabilidade</b>: Os servidores devem ser dimensionados adequadamente para atender à demanda crescente de clientes e serviços. A capacidade do servidor pode ser
+        aumentada através de expansão de hardware, como mais processadores, memória ou armazenamento.</li>
+      <li><b>Segurança</b>: Servidores geralmente contêm dados e serviços sensíveis, exigindo medidas de segurança robustas para proteger contra acessos não autorizados e ataques cibernéticos.</li>
+      <li><b>Gerenciamento centralizado</b>: Os servidores geralmente são administrados centralmente para facilitar a configuração, monitoramento e manutenção. Isso permite que os administradores 
+        controlem e otimizem o desempenho e a segurança do sistema.</li>
+      <li><b>Tipos de servidores</b>: Existem diversos tipos de servidores para atender a diferentes necessidades, como servidores web (que hospedam sites e aplicativos web), servidores de banco de dados 
+        (para armazenar e gerenciar dados), servidores de arquivos (para compartilhamento de arquivos), servidores de email (para gerenciar o envio e recebimento de e-mails) e muitos outros.</li>
+      <li><b>Virtualização</b>: Com o avanço da tecnologia, é comum utilizar a virtualização para criar múltiplas instâncias de servidores virtuais em um único hardware físico, o que permite melhor aproveitamento 
+        dos recursos e flexibilidade na configuração.</li>
+    </ol>
+    Em resumo, os servidores são componentes essenciais da infraestrutura de redes e sistemas de computação modernos, atuando como fornecedores de serviços, recursos e armazenamento para os clientes que deles 
+    dependem para realizar diversas tarefas e acessar informações pela Internet ou em redes internas.
+
+  </p>
+<hr>
+  <h2 id="linguagem">Linguagens de Programação</h2>
+  <small><a href="#inicio">(Início)</a></small>
+  <p><strong>HTML (HyperText Markup Language)</strong> é uma linguagem de marcação utilizada para criar e estruturar conteúdo na web. É a base fundamental para a construção   de páginas e aplicativos da internet. 
+    Por meio de tags (etiquetas) e atributos, o HTML permite que os desenvolvedores descrevam a estrutura do conteúdo, como textos, imagens, links e outros elementos, de modo que os navegadores possam interpretá-lo e exibi-lo corretamente para os usuários.
+    <ol>
+      <li><strong>Estrutura hierárquica</strong>: O HTML é organizado em uma estrutura hierárquica, onde as tags podem conter outras tags, formando uma árvore de elementos.</li>
+      <li><strong>Tags e atributos</strong> As tags são elementos marcados por "<" e ">" e, muitas vezes, têm atributos que fornecem informações adicionais sobre o conteúdo. Por exemplo, a tag "<"img">" é usada para exibir imagens e pode ter atributos como "src" (URL da imagem) e "alt" (texto alternativo para acessibilidade).</li>
+      <li><strong>Versão e padrões</strong> O HTML possui diferentes versões, sendo o HTML5 a mais recente. As novas versões geralmente trazem recursos mais avançados e melhorias na semântica e acessibilidade.</li>
+      <li><strong>Integração com outras tecnologias</strong>: O HTML é frequentemente combinado com o <b>CSS (Cascading Style Sheets)</b> para estilizar o layout da página e com o JavaScript para adicionar interatividade e dinamismo ao conteúdo.</li>
+    </ol>
+    Em resumo, o <strong>HTML</strong> é a base para a criação de páginas da web, permitindo a estruturação e formatação do conteúdo, tornando-o acessível e interpretável pelos navegadores para que os usuários possam interagir e consumir informações na internet.
+  </p>
+<hr>
+  <h2 id="tags">Tags HTML</h2>
+  <small><a href="#inicio">(Início)</a></small>
+  <p>Vou mostrar algumas tags do <b>HTML</b>
+  <ul>
+    <li><strong>h1 até h6</strong> : Cabeçalhos de diferentes níveis, do maior (h1) ao menor (h6).</li>
+    <li><strong>p</strong> : Define um parágrafo de texto.</li>
+    <li><strong>mark</strong> : <mark>É usada para destacar ou marcar parte do texto em uma página da web</mark></li>
+    <li><strong>small</strong> : Usadas para indicar que o texto contido dentro dela deve ser exibido em uma fonte de tamanho menor em relação ao texto circundante.</li>
+    <li><strong>i</strong> : Usada para deixar o texto na formatação Italico.</li>
+    <li><strong>u</strong> : Usado para deixar o texto na formatação underline.</li>
+    <li><strong>strong</strong> : Usado para formatar o texto em negrito e dar enfaze no texto. </li>
+    <li><strong>ol</strong> :  Cria uma lista ordenada (com números).</li>
+    <li><strong>ul</strong> : Cria uma lista não ordenada (com marcadores).</li>
+    <li><strong>li</strong> :  Define um item de lista dentro das tags <"ul"> ou <"ol">.</li>
+    <li><strong>a</strong> : Cria um link para outra página ou recurso, usando o atributo "href" para especificar o destino do link.</li>
+    <li><strong>hr</strong> : Cria uma linha.</li>
+    <li><strong>sub</strong> : Indicar que o texto contido dentro dela deve ser exibido como um subscrito (caracteres menores e abaixo da linha de base).</li>
+    <li><strong>sup</strong> :  Ela é usada para exibir texto como sobrescrito (caracteres menores e acima da linha de base).</li>
+    <li><strong>blockquote</strong> : Criar citações em bloco, ou seja, citações que ocupam uma área separada do restante do texto. Geralmente, essas citações são usadas para destacar trechos longos de texto, como citações literárias, trechos de entrevistas, ou qualquer conteúdo que precise ser destacado e diferenciado do texto circundante.</li>
+    <li><strong>font</strong> : Usada para aplicar formatação de estilo de fonte a um texto específico em uma página da web.</li>
+    <li><strong>del</strong> : Usada para indicar a remoção ou exclusão de um trecho de texto em uma página da web. É comumente utilizada para mostrar conteúdo que foi retirado ou riscado, seja para destacar alterações em documentos, exibir edições de texto ou para outras finalidades semelhantes.</li>
+    <li><strong>abbr</strong> : Usada para criar uma abreviação ou sigla de um termo específico em uma página da web. Ela é usada para fornecer uma explicação ou descrição completa da abreviação quando o usuário passa o mouse sobre o termo abreviado, ou quando é acessado por meio de leitores de tela.</li>
+    <li><strong>div</strong> :  Usada como um contêiner genérico para agrupar outros elementos e aplicar estilos através de CSS.</li>
+  </ul>
+  Essas são algumas das tags que o <b>HTML</b> utiliza.
+  </p>
+<hr>
+  <h2 id="referencia">Links de Referência</h2>
+  <small><a href="#inicio">(Início)</a></small>
+<ul>
+  <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/" target="_blank" rel="História dos Computadores">Historia e Evolução dos Computadores</a></li>
+  <li><a href="https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor" target="_blank" rel="Clients e Servers">Clients e Servers</a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank" rel="HTML Basico">HTML</a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank" rel="Tags HTML">Tags HTML</a></li>
+</ul>
+
+</body>
+</html>
